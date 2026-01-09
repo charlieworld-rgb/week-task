@@ -31,7 +31,18 @@ position: relative;
 .container{
 padding:0px;
     background-color: blueviolet;
+    width: 150px;
+    position: absolute;
+    margin: 50px;
+    padding: 5px;
+    border-radius: 15px;
+
 }
+
+.container:hover{
+    background-color: olive;
+}
+
 
 .feature_image {
     position: relative;
@@ -49,4 +60,23 @@ left: 75px;;
 
 
 
-    
+    .header{
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding:10px;  
+        opacity: 45%;
+        background-color: palevioletred;
+    }
+
+    .title{
+        color: darkblue;
+        padding-right: 200px;
+    }
+
+    footer{
+
+        text-align:center;
+        padding:15px;
+    }
